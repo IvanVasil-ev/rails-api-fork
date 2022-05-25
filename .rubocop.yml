@@ -1,0 +1,17 @@
+AllCops:
+  TargetRubyVersion: '3.1.2'
+  DisplayCopNames: true
+  Exclude:
+    - bin/*
+    - config/**/*
+    - config/application.rb
+    - db/**/*
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ParameterLists:
+  Max: 10
